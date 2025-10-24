@@ -1,0 +1,58 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(221, 248, 240);
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    color:rgb(7, 7, 7);
+    margin-bottom: 40px;
+}
+
+/* Estilo base das caixas */
+
+.Caixa {
+    width: 300px;
+    border: 3px solid violet;
+    background-color: cadetblue;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* caixa com margin */
+
+.Margin {
+    background-color: darkslategrey;
+    margin: 50px auto; 
+    padding: 10px;
+}
+
+/* Caixa com padding */
+
+.Padding{
+    background-color: rgb(128, 101, 69);
+    padding: 50px;
+    margin: 20px auto;
+
+}
+
+p{
+    font-size: 15px;
+
+}
+.Continuação{
+    
+    border: 3px solid violet;
+    background-color: palegreen;
+    margin: 30px auto;
+   
+}
+    
+.Instancia{
+   
+    border: 3px solid violet;
+    background-color:cornflowerblue;
+    margin: 30px auto;
+   
+}

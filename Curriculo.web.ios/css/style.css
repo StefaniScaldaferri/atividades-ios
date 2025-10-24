@@ -1,0 +1,7 @@
+/* para resetar o css forçado pelo navegador, podemos utilizar o seguinte código: */
+
+ {
+    margin: 0;
+    paddding: 0;
+}
+/* O Sinal * (asterisco) representa a página HTML, e com isso podemos aplicar alterações na página inteira. Assim zeramoso padding e a margin padrão.  */

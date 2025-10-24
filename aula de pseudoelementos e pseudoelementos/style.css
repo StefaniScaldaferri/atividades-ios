@@ -1,0 +1,114 @@
+/*=== Estilos Gerais ===*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    background-color: azure;
+    color:rgb(8, 0, 227);
+
+}
+
+header {
+    background-color: rgb(90, 145, 190);
+    color: white;
+    padding:20px;
+    text-align:center;
+
+}
+ nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+ }
+
+ nav a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+ /*=== Pseudoclasses === */
+ nav a:hover {
+    text-decoration: underline;
+    color: steelblue;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+
+ } 
+
+ button{
+    background-color: steelblue;
+    color:white;
+    border: none;
+    padding: 10 px 20px;
+    font-size:16px;
+    cursor: pointer;
+    border-radius: 5px;
+
+ }
+ button:hover {
+    background-color: darkblue;
+   
+ }
+
+ button:active{
+    background-color:darkmagenta;
+ }
+
+ input{
+    padding: 8px;
+    border:2px solid rgb(241, 77, 77);
+ }
+
+ input:focus{
+    border-color:rgb(20, 114, 83);
+    outline: none;
+
+ }
+ /* ==== Pseudoelemento ====*/
+
+ .titulo-estiliza::before {
+
+   content:"⭐";
+   color:gold;
+ }
+
+
+   .titulo-estilizado::after {
+   content: "⭐";
+   color: gold;
+}
+
+.titulo::first-letter {
+    font-size: 2em;
+    color:red;
+ font-weight: bold;
+
+
+}
+.texto::first-line {
+    font-weight: bold;
+    color:black
+
+}
+section
+
+/* ==== Footer ==== */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(53, 89, 119);
+    margin-top: 30px;
+    color:white;
+
+}
+
+
+
+
